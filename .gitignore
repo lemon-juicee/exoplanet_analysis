@@ -1,0 +1,2 @@
+# Prevent repeated generation of __pycache__ files upon import
+__pycache__/
