@@ -29,4 +29,5 @@ class Parameter:
             earth_line = plt.axvline(self.ev, 0, 1, color = earth_color)
         plt.show()
 
+
 radius = Parameter('radius_with_names.csv', 1)
