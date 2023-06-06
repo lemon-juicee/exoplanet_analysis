@@ -11,6 +11,8 @@ class Parameter:
         self.dict = {planet:parameter for [planet, parameter] in self.data}
         self.ev = earth_value
     def plot(self, color = 'blue', show_earth = False, earth_color = 'black'):
+        # Fill isn't perfect, but works rudimentarily
+        # TODO : Establish better estimate of fill
         values = np.array(self.data[0:,1])
         median = np.median(values)
         sns.kdeplot(values, fill = True)
