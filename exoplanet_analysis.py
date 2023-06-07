@@ -10,7 +10,7 @@ class Parameter:
         self.data = np.array(pandas.read_csv(file))
         self.dict = {planet:parameter for [planet, parameter] in self.data}
         self.ev = earth_value
-    def plot(self, color = 'blue', show_earth = False, earth_color = 'black'):
+    def plot_pdf(self, color = 'blue', show_earth = False, earth_color = 'black'):
         # Fill isn't perfect, but works rudimentarily
         # TODO : Establish better estimate of fill
         values = np.array(self.data[0:,1])
@@ -27,6 +27,25 @@ class Parameter:
         elif median < self.ev and show_earth:
             mask = kde_x > self.ev
             filled_x, filled_y = kde_x[mask], kde_y[mask]
+            ax.fill_between(filled_x, y1=filled_y)
+            earth_line = plt.axvline(self.ev, 0, 1, color = earth_color)
+        plt.show()
+    def plot_cdf(self, color = 'blue', show_earth = False, earth_color = 'black'):
+        # TODO : Affirm accuracy of shading
+        # Fill is much more accurate than plot_pdf but may still need work
+        values = np.array(self.data[0:,1])
+        median = np.median(values)
+        ax = sns.ecdfplot(values)
+        ecdf_x = ax.get_lines()[-1].get_xdata()
+        ecdf_y = ax.get_lines()[-1].get_ydata()
+        if median > self.ev and show_earth:
+            mask = ecdf_x < self.ev
+            filled_x, filled_y = ecdf_x[mask], ecdf_y[mask]
+            ax.fill_between(filled_x, y1=filled_y)
+            earth_line = plt.axvline(self.ev, 0, 1, color = earth_color)
+        elif median < self.ev and show_earth:
+            mask = ecdf_x > self.ev
+            filled_x, filled_y = ecdf_x[mask], ecdf_y[mask]
             ax.fill_between(filled_x, y1=filled_y)
             earth_line = plt.axvline(self.ev, 0, 1, color = earth_color)
         plt.show()
