@@ -2,6 +2,7 @@ import numpy as np
 import pandas
 import matplotlib.pyplot as plt
 import seaborn as sns
+import scipy.stats as stats
 
 
 class Parameter:
@@ -12,11 +13,12 @@ class Parameter:
         self.data = np.array(pandas.read_csv(file))
         self.dict = {planet:parameter for [planet, parameter] in self.data}
         self.ev = earth_value
+        self.values = np.sort(np.array(self.data[0:,1]))
     def plot_pdf(self, color = 'blue', show_earth = False, earth_color = 'black'):
         """Plot a kernel density estimate of the parameter's probability distribution function."""
         # Fill isn't perfect, but works rudimentarily
         # TODO : Establish better estimate of fill
-        values = np.array(self.data[0:,1])
+        values = self.values
         median = np.median(values)
         sns.kdeplot(values, fill = True, color = color)
         ax = sns.kdeplot(values)
@@ -37,7 +39,7 @@ class Parameter:
         """Plot an empirical cumulative distribution function for the parameter."""
         # TODO : Affirm accuracy of shading
         # Fill is much more accurate than plot_pdf but may still need work
-        values = np.array(self.data[0:,1])
+        values = self.values
         median = np.median(values)
         ax = sns.ecdfplot(values)
         ecdf_x = ax.get_lines()[-1].get_xdata()
