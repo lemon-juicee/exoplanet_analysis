@@ -12,7 +12,6 @@ class Parameter:
         self.data = np.array(pandas.read_csv(file))
         self.dict = {planet:parameter for [planet, parameter] in self.data}
         self.ev = earth_value
-    
     def plot_pdf(self, color = 'blue', show_earth = False, earth_color = 'black'):
         """Plot a kernel density estimate of the parameter's probability distribution function."""
         # Fill isn't perfect, but works rudimentarily
@@ -34,7 +33,6 @@ class Parameter:
             ax.fill_between(filled_x, y1=filled_y)
             plt.axvline(self.ev, 0, 1, color = earth_color)
         plt.show()
-    
     def plot_cdf(self, show_earth = False, earth_color = 'black'):
         """Plot an empirical cumulative distribution function for the parameter."""
         # TODO : Affirm accuracy of shading
