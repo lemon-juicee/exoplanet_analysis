@@ -55,6 +55,10 @@ class Parameter:
             ax.fill_between(filled_x, y1=filled_y)
             plt.axvline(self.ev, 0, 1, color = earth_color)
         plt.show()
-
+    def percentile(self):
+        """Calculate Earth's percentile in the parameter."""
+        values = self.values
+        percent = (values[values <= self.ev].size) / (values.size) * 100
+        return percent
 
 radius = Parameter('radius_with_names.csv', 1)
