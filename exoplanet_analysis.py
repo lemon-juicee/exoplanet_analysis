@@ -2,7 +2,7 @@ import numpy as np
 import pandas
 import matplotlib.pyplot as plt
 import seaborn as sns
-import scipy.stats as stats
+import random
 
 
 class Parameter:
@@ -60,5 +60,6 @@ class Parameter:
         values = self.values
         percent = (values[values <= self.ev].size) / (values.size) * 100
         return percent
+
 
 radius = Parameter('radius_with_names.csv', 1)
