@@ -72,5 +72,4 @@ class Parameter:
         return samp_dist
 
 
-
 radius = Parameter('radius_with_names.csv', 1)
