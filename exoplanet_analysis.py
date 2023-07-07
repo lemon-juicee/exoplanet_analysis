@@ -60,7 +60,17 @@ class Parameter:
         values = self.values
         percent = (values[values <= self.ev].size) / (values.size) * 100
         return percent
-    def gen_samp_dist(self, size, number):
+    def gen_samp_dist(self, size, number, plot=False):
         """Generate a sampling distribution of the parameter."""
+        values = self.values
+        samp_dist = []
+        i = 0
+        while i < number:
+            mean = np.mean(random.sample(values.tolist(), k = size))
+            samp_dist.append(mean)
+            i += 1
+        return samp_dist
+
+
 
 radius = Parameter('radius_with_names.csv', 1)
