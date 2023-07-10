@@ -65,13 +65,11 @@ class Parameter:
         """Generate a sampling distribution of the parameter."""
         values = self.values
         samp_dist = []
-        samples = np.array([])
         i = 0
         while i < number:
             sample = random.sample(values.tolist(), k = size)
             mean = np.mean(sample)
             samp_dist.append(mean)
-            samples = np.append(samples, sample)
             i += 1
         return samp_dist
 
