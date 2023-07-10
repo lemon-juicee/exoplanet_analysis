@@ -73,7 +73,7 @@ class Parameter:
             samp_dist.append(mean)
             samples = np.append(samples, sample)
             i += 1
-        return samples, samp_dist
+        return samp_dist
 
 
 radius = Parameter('radius_with_names.csv', 1)
