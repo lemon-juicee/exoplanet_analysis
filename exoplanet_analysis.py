@@ -13,7 +13,8 @@ class Parameter:
         self.data = np.array(pandas.read_csv(file))
         self.dict = {planet:parameter for [planet, parameter] in self.data}
         self.ev = earth_value
-        self.values = np.sort(np.array(self.data[0:,1]))
+        self.values = np.array(self.data[0:,1])
+        self.sorted = np.sort(self.values)
     def plot_pdf(self, color = 'blue', show_earth = False, earth_color = 'black'):
         """Plot a kernel density estimate of the parameter's probability distribution function."""
         # Fill isn't perfect, but works rudimentarily
@@ -64,12 +65,15 @@ class Parameter:
         """Generate a sampling distribution of the parameter."""
         values = self.values
         samp_dist = []
+        samples = np.array([])
         i = 0
         while i < number:
-            mean = np.mean(random.sample(values.tolist(), k = size))
+            sample = random.sample(values.tolist(), k = size)
+            mean = np.mean(sample)
             samp_dist.append(mean)
+            samples = np.append(samples, sample)
             i += 1
-        return samp_dist
+        return samples, samp_dist
 
 
 radius = Parameter('radius_with_names.csv', 1)
