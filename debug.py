@@ -1,6 +1,6 @@
 import numpy as np
 
-import exoplanet_analysis
+import parameter_analysis
 
 def check_for_nan(array):
     """Check for NaN locations within an array."""
