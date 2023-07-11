@@ -1,3 +1,5 @@
 # Prevent repeated generation of __pycache__ files upon import
 __pycache__/
+
+# Hide redundant VS Code files
 .vscode/
