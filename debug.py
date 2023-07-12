@@ -11,3 +11,4 @@ def check_for_nan(array):
             nan_locations.append(number)
             number += 1
     return nan_locations
+    # Should return empty list if input is valid
