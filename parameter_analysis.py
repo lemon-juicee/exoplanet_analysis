@@ -72,6 +72,3 @@ class Parameter:
             samp_dist.append(mean)
             i += 1
         return samp_dist
-
-
-radius = Parameter('radius_with_names.csv', 1)
