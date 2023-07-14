@@ -1,19 +1,3 @@
-# This file was produced by the NASA Exoplanet Archive  http://exoplanetarchive.ipac.caltech.edu,,
-# Thu Jul 13 17:08:39 2023,,
-#,,
-# User preference: *,,
-#,,
-# CONSTRAINT:  where (discoverymethod like '%Transit%',,
-# CONSTRAINT:  and pl_orbsmaxstr not null,,
-# CONSTRAINT:  and st_lumstr not null),,
-# CONSTRAINT:  order by pl_name desc,,
-#,,
-# COLUMN pl_name:        Planet Name,,
-# COLUMN discoverymethod: Discovery Method,,
-# COLUMN pl_orbsmax:     Orbit Semi-Major Axis [au]),,
-# COLUMN st_lum:         Stellar Luminosity [log(Solar)],,
-#,,
-pl_name,pl_orbsmax,st_lum
 pi Men c,0.069,0.16
 XO-7 b,0.04421,0.431
 XO-6 b,0.0815,0.536
