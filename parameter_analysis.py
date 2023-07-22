@@ -3,6 +3,7 @@ import numpy as np
 import pandas
 import matplotlib.pyplot as plt
 import seaborn as sns
+import tools
 
 
 class Parameter:
@@ -10,7 +11,7 @@ class Parameter:
 
     def __init__(self, file, earth_value):
         """Initialize parameter from Exoplanet Archive data."""
-        self.data = np.array(pandas.read_csv(file))
+        self.data = tools.data_from_csv(file)
         self.dict = {planet:parameter for [planet, parameter] in self.data}
         self.ev = earth_value
         self.values = np.array(self.data[0:,1])
