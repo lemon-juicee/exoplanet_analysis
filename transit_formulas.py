@@ -39,8 +39,9 @@ def decrease_transit_rv():
     plt.hist(rv_data, range = (0, 1), color = 'blue', bins = 1000, alpha = 0.5, weights=np.ones_like(rv_data) / np.size(rv_data))
     plt.show()
 
-transit_data = np.array(list(final_luminosity('transit,pl_name,pl_rade,st_rad,st_lum.csv').values()))
-rv_data = np.array(list(final_luminosity('rv,pl_name,pl_rade,st_rad,st_lum.csv').values()))
-plt.hist(transit_data, range = (0, 1), color = 'red', bins = 1000, alpha = 0.5, weights=np.ones_like(transit_data) / np.size(transit_data))
-plt.hist(rv_data, range = (0, 1), color = 'blue', bins = 1000, alpha = 0.5, weights=np.ones_like(rv_data) / np.size(rv_data))
-plt.show()
+def final_lums_transit_rv():
+    transit_data = np.array(list(final_luminosity('transit,pl_name,pl_rade,st_rad,st_lum.csv').values()))
+    rv_data = np.array(list(final_luminosity('rv,pl_name,pl_rade,st_rad,st_lum.csv').values()))
+    plt.hist(transit_data, range = (0, 1), color = 'red', bins = 1000, alpha = 0.5, weights=np.ones_like(transit_data) / np.size(transit_data))
+    plt.hist(rv_data, range = (0, 1), color = 'blue', bins = 1000, alpha = 0.5, weights=np.ones_like(rv_data) / np.size(rv_data))
+    plt.show()
