@@ -1,101 +1,101 @@
-1RXS J160929.1-210524 b,Imaging,18.647,1.31
-2M0437 b,Imaging,13,0.84
-2MASS J01225093-2439505 b,Imaging,11.209,0.37
-2MASS J02192210-3925225 b,Imaging,16.141,0.28
-2MASS J04414489+2301513 b,Imaging,12.6,0.23
-2MASS J12073346-3932539 b,Imaging,12.9,0.22
-2MASS J19383260+4603591 b,Eclipse Timing Variations,13.4,0.2
-2MASS J22362452+4751425 b,Imaging,12.3,0.64
-51 Eri b,Imaging,13.4,1.49
-AB Aur b,Imaging,12.5,2.96
-AB Pic b,Imaging,12.3,1
-AF Lep b,Imaging,13.1,1.25
-BD+60 1417 b,Imaging,14.684,0.8
-CFHTWIR-Oph 98 b,Imaging,20.849,0.24
-COCONUTS-2 b,Imaging,12.442,0.39
-CT Cha b,Imaging,24.66,1.68
-DE CVn b,Eclipse Timing Variations,12.4,0.42
-DH Tau b,Imaging,30.264,0.27
-DP Leo b,Eclipse Timing Variations,12.7,0.01
-GJ 504 b,Imaging,13,1.26
-GJ 896 A b,Astrometry,13.3,0.39
-GQ Lup b,Imaging,33.6,1.94
-GSC 06214-00210 b,Imaging,20.176,0.9
-GU Psc b,Imaging,14.179,0.45
-HD 100546 b,Imaging,77.342,1.85
-HD 106906 b,Imaging,12.4,2.12
-HD 169142 b,Imaging,13.1,1.54
-HD 203030 b,Imaging,14.46,0.86
-HD 206893 b,Imaging,14.011,1.31
-HD 206893 c,Imaging,16.365,1.31
-HD 95086 b,Imaging,12.9,1.49
-HD 97048 b,Disk Kinematics,13.3,2.25
-HIP 21152 b,Imaging,12,1.59
-HIP 65426 b,Imaging,16.814,1.74
-HIP 75056 A b,Imaging,22.418,1.65
-HIP 78530 b,Imaging,12,2.11
-HIP 99770 b,Imaging,12.2,1.94
-HN Peg b,Imaging,11.777,1.01
-HR 2562 b,Imaging,12.442,1.47
-HR 8799 b,Imaging,13,1.49
-HR 8799 c,Imaging,13,1.49
-HR 8799 d,Imaging,13,1.49
-HR 8799 e,Imaging,13.115,1.49
-KIC 10068024 b,Orbital Brightness Modulation,13.4,1.57
-KIC 5095269 b,Eclipse Timing Variations,12.6,1.17
-KIC 5479689 b,Orbital Brightness Modulation,14.2,0.89
-KIC 7917485 b,Pulsation Timing Variations,12.4,2.01
-KIC 8121913 b,Orbital Brightness Modulation,13.4,2.23
-KOI-55 b,Orbital Brightness Modulation,0.759,0.2
-KOI-55 c,Orbital Brightness Modulation,0.867,0.2
-KOI-984 c,Transit Timing Variations,14.1,0.82
-Kepler-122 f,Transit Timing Variations,1.75,0.95
-Kepler-138 e,Transit Timing Variations,0.797,0.54
-Kepler-19 c,Transit Timing Variations,3.68,0.86
-Kepler-1976 b,Transit Timing Variations,12.21,1.08
-Kepler-338 e,Transit Timing Variations,1.56,1.74
-Kepler-37 e,Transit Timing Variations,0.37,0.77
-Kepler-411 e,Transit Timing Variations,3.28,0.82
-Kepler-414 b,Transit Timing Variations,1.71,0.95
-Kepler-414 c,Transit Timing Variations,3.01,0.95
-Kepler-415 b,Transit Timing Variations,1.21,0.64
-Kepler-415 c,Transit Timing Variations,2.01,0.64
-Kepler-416 b,Transit Timing Variations,2.48,1.07
-Kepler-416 c,Transit Timing Variations,2.45,1.07
-Kepler-417 b,Transit Timing Variations,2.31,0.81
-Kepler-417 c,Transit Timing Variations,2.69,0.81
-Kepler-419 c,Transit Timing Variations,12.6,1.74
-Kepler-448 c,Transit Timing Variations,12,1.4
-Kepler-451 c,Eclipse Timing Variations,13.5,0.2
-Kepler-451 d,Eclipse Timing Variations,13.5,0.2
-Kepler-46 c,Transit Timing Variations,13.5,0.94
-Kepler-539 c,Transit Timing Variations,13.3,0.95
-Kepler-76 b,Orbital Brightness Modulation,15.244,1.32
-Kepler-82 f,Transit Timing Variations,4.84,0.9
-NSVS 14256825 b,Eclipse Timing Variations,12.3,0.19
-NY Vir b,Eclipse Timing Variations,13.3,0.15
-NY Vir c,Eclipse Timing Variations,12.8,0.15
-Oph 11 b,Imaging,12.3,0.23
-PDS 70 b,Imaging,30.488,1.26
-PDS 70 c,Imaging,22.866,1.06
-PZ Tel b,Imaging,11.9,1.26
-ROXs 12 b,Imaging,12.2,1.07
-ROXs 42 B b,Imaging,12.5,1.34
-RR Cae b,Eclipse Timing Variations,13,0.19
-Ross 458 c,Imaging,14.011,0.56
-SR 12 AB c,Imaging,12.3,1.1
-TCP J05074264+2447555 b,Microlensing,4.72,1.42
-TOI-2202 c,Transit Timing Variations,13.4,0.79
-TYC 8998-760-1 b,Imaging,12.3,0.95
-TYC 8998-760-1 c,Imaging,12.33,0.95
-USco CTIO 108 b,Imaging,12.3,0.35
-USco1556 b,Imaging,12.3,0.67
-USco1621 b,Imaging,12.2,0.71
-V0391 Peg b,Pulsation Timing Variations,13.1,0.23
-WASP-126 c,Transit Timing Variations,9.38,1.27
-WASP-18 c,Transit Timing Variations,8.58,1.23
-WISEP J121756.91+162640.2 A b,Imaging,10.468,0.09
-YSES 2 b,Imaging,12.7,1.19
-bet Pic b,Imaging,18.495,1.54
-kap And b,Imaging,12.3,2.31
-mu2 Sco b,Imaging,12.3,5.6
+1RXS J160929.1-210524 b,18.647,1.31
+2M0437 b,13,0.84
+2MASS J01225093-2439505 b,11.209,0.37
+2MASS J02192210-3925225 b,16.141,0.28
+2MASS J04414489+2301513 b,12.6,0.23
+2MASS J12073346-3932539 b,12.9,0.22
+2MASS J19383260+4603591 b,13.4,0.2
+2MASS J22362452+4751425 b,12.3,0.64
+51 Eri b,13.4,1.49
+AB Aur b,12.5,2.96
+AB Pic b,12.3,1
+AF Lep b,13.1,1.25
+BD+60 1417 b,14.684,0.8
+CFHTWIR-Oph 98 b,20.849,0.24
+COCONUTS-2 b,12.442,0.39
+CT Cha b,24.66,1.68
+DE CVn b,12.4,0.42
+DH Tau b,30.264,0.27
+DP Leo b,12.7,0.01
+GJ 504 b,13,1.26
+GJ 896 A b,13.3,0.39
+GQ Lup b,33.6,1.94
+GSC 06214-00210 b,20.176,0.9
+GU Psc b,14.179,0.45
+HD 100546 b,77.342,1.85
+HD 106906 b,12.4,2.12
+HD 169142 b,13.1,1.54
+HD 203030 b,14.46,0.86
+HD 206893 b,14.011,1.31
+HD 206893 c,16.365,1.31
+HD 95086 b,12.9,1.49
+HD 97048 b,13.3,2.25
+HIP 21152 b,12,1.59
+HIP 65426 b,16.814,1.74
+HIP 75056 A b,22.418,1.65
+HIP 78530 b,12,2.11
+HIP 99770 b,12.2,1.94
+HN Peg b,11.777,1.01
+HR 2562 b,12.442,1.47
+HR 8799 b,13,1.49
+HR 8799 c,13,1.49
+HR 8799 d,13,1.49
+HR 8799 e,13.115,1.49
+KIC 10068024 b,13.4,1.57
+KIC 5095269 b,12.6,1.17
+KIC 5479689 b,14.2,0.89
+KIC 7917485 b,12.4,2.01
+KIC 8121913 b,13.4,2.23
+KOI-55 b,0.759,0.2
+KOI-55 c,0.867,0.2
+KOI-984 c,14.1,0.82
+Kepler-122 f,1.75,0.95
+Kepler-138 e,0.797,0.54
+Kepler-19 c,3.68,0.86
+Kepler-1976 b,12.21,1.08
+Kepler-338 e,1.56,1.74
+Kepler-37 e,0.37,0.77
+Kepler-411 e,3.28,0.82
+Kepler-414 b,1.71,0.95
+Kepler-414 c,3.01,0.95
+Kepler-415 b,1.21,0.64
+Kepler-415 c,2.01,0.64
+Kepler-416 b,2.48,1.07
+Kepler-416 c,2.45,1.07
+Kepler-417 b,2.31,0.81
+Kepler-417 c,2.69,0.81
+Kepler-419 c,12.6,1.74
+Kepler-448 c,12,1.4
+Kepler-451 c,13.5,0.2
+Kepler-451 d,13.5,0.2
+Kepler-46 c,13.5,0.94
+Kepler-539 c,13.3,0.95
+Kepler-76 b,15.244,1.32
+Kepler-82 f,4.84,0.9
+NSVS 14256825 b,12.3,0.19
+NY Vir b,13.3,0.15
+NY Vir c,12.8,0.15
+Oph 11 b,12.3,0.23
+PDS 70 b,30.488,1.26
+PDS 70 c,22.866,1.06
+PZ Tel b,11.9,1.26
+ROXs 12 b,12.2,1.07
+ROXs 42 B b,12.5,1.34
+RR Cae b,13,0.19
+Ross 458 c,14.011,0.56
+SR 12 AB c,12.3,1.1
+TCP J05074264+2447555 b,4.72,1.42
+TOI-2202 c,13.4,0.79
+TYC 8998-760-1 b,12.3,0.95
+TYC 8998-760-1 c,12.33,0.95
+USco CTIO 108 b,12.3,0.35
+USco1556 b,12.3,0.67
+USco1621 b,12.2,0.71
+V0391 Peg b,13.1,0.23
+WASP-126 c,9.38,1.27
+WASP-18 c,8.58,1.23
+WISEP J121756.91+162640.2 A b,10.468,0.09
+YSES 2 b,12.7,1.19
+bet Pic b,18.495,1.54
+kap And b,12.3,2.31
+mu2 Sco b,12.3,5.6
