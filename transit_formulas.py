@@ -22,6 +22,16 @@ def brightness_decrease(name):
         brightness_loss[name] = loss
     return brightness_loss
 
+def final_luminosity(name):
+    data = tools.data_from_csv(name)
+    total_brightness_loss = {}
+    for name, pl_rade, st_rad, st_lum in data:
+        loss = ((pl_rade * 6378137) ** 2) / ((st_rad * 695700000) ** 2)
+        lum = 10 ** st_lum
+        total_loss = loss * lum
+        total_brightness_loss[name] = total_loss
+    return total_brightness_loss
+
 def decrease_transit_rv():
     transit_data = np.array(list(brightness_decrease('transit,pl_name,pl_rade,st_rad.csv').values()))
     rv_data = np.array(list(brightness_decrease('rv,pl_name,pl_rade,st_rad.csv').values()))
@@ -29,3 +39,8 @@ def decrease_transit_rv():
     plt.hist(rv_data, range = (0, 1), color = 'blue', bins = 1000, alpha = 0.5, weights=np.ones_like(rv_data) / np.size(rv_data))
     plt.show()
 
+transit_data = np.array(list(final_luminosity('transit,pl_name,pl_rade,st_rad,st_lum.csv').values()))
+rv_data = np.array(list(final_luminosity('rv,pl_name,pl_rade,st_rad,st_lum.csv').values()))
+plt.hist(transit_data, range = (0, 1), color = 'red', bins = 1000, alpha = 0.5, weights=np.ones_like(transit_data) / np.size(transit_data))
+plt.hist(rv_data, range = (0, 1), color = 'blue', bins = 1000, alpha = 0.5, weights=np.ones_like(rv_data) / np.size(rv_data))
+plt.show()
